@@ -7,3 +7,16 @@ h1 {
   color: green;
   text-align: center;
 }
+
+.todo_listcontainer {
+  margin: 20px;
+  width: 800px;
+  border: 2px solid;
+  padding: 20px;
+}
+
+.table_container {
+  width: 800px;
+  border: 2px solid;
+  margin: 20px;
+}
