@@ -24,3 +24,9 @@ h1 {
 caption {
   text-align: left;
 }
+
+.site_footer {
+  width: 700px;
+  font-weight: bold;
+  font-style: italic;
+}
