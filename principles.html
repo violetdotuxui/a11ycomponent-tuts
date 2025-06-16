@@ -5,11 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-
-    <title>Accessible Components 2.0</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Accessibility Best Practices</title>
   </head>
-  <body>
-    <h1>Homepage Branch</h1>
+  <body class="bg-white min-h-screen">
+    <!-- Navigation -->
+    <nav class="bg-blue-900 text-white p-4 shadow-lg">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">
+            <a href="index.html">A11y Guide</a>
+        </h1>
+        <div class="space-x-4">
+          <a href="/principles.html" class="hover:text-gray-300 transition"
+            >Principles</a
+          >
+          <a href="#practices" class="hover:text-gray-300 transition"
+            >Best Practices</a
+          >
+          <a href="#resources" class="hover:text-gray-300 transition"
+            >Resources</a
+          >
+        </div>
+      </div>
+    </nav>
+
     <div class="todo_listcontainer">
       <h2>Homework - todo list</h2>
       <ul>
@@ -86,11 +105,12 @@
     </table>
     </div> 
 
-    <footer class="site_footer">
-      <div class="footer_content">
-        <p>Est. 2025. For learning purposes.</p>
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-8">
+      <div class="container mx-auto px-4 text-center">
+        <p>© 2025 Accessibility Best Practices. All rights reserved. For learning purposes.</p>
       </div>
-      
     </footer>
+
   </body>
 </html>
