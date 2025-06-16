@@ -3,16 +3,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/*h1 {
-  color: green;
-  text-align: center;
-}*/
-
 .todo_listcontainer {
   margin: 20px;
   width: 800px;
   border: 2px solid;
   padding: 20px;
+}
+
+h2 {
+  font-size: medium;
 }
 
 /*  
@@ -46,10 +45,15 @@ td {
   text-align: left;
 }
 
-thead {
-  background-color: #afc9dc;
-}
-
 tr:nth-child(even) {
   background-color: #fafafa;
+}
+
+thead th {
+  background-color: #f4f4f4;
+  border-right: 2px dotted #ccc; /* All four sides */
+}
+
+thead th:last-child {
+  border-right: none;
 }
